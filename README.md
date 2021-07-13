@@ -1,4 +1,4 @@
-# Автотесты на **промо Торгового Эквайринга**, [**https://www.tinkoff.ru/business/acquiring/**](https://www.tinkoff.ru/business/acquiring/)
+# Автотесты на **сайт FunCorp**, [**https://fun.co/**](https://fun.co/)
 
 ## Стек и инструменты
  Тесты были написаны на Java + JUnit5 + Selenide + Gradle
@@ -24,7 +24,7 @@
 | <img src="images/heart.png" width="40" height="40"> |
 
 
-## Запуск через Jenkins https://jenkins.autotests.cloud/job/tacq/
+## Запуск через Jenkins https://jenkins.autotests.cloud/job/funcorp/
 
 ### С какими параметрами можно запустить тесты:
 
@@ -59,10 +59,18 @@ allure serve build/allure-results
 ### Пример прогона теста в Selenoid
 ![alt "Video from Selenoid"](./images/TestExample.gif "Video from Selenoid")
 
+## После прогона формируется отчет в Allure
+![alt "Выбор параметров"](./images/AllureNotifications.png)
+c такими полезными аттачами, как логи, скриншоты и видео прохождения каждого теста
+![alt "Выбор параметров"](./images/Attachments.png)
+
+## И в Telegram отправляется уведомление с результатами
+![alt "Выбор параметров"](./images/TelegramNotifications.png)
+
+чат с уведомениями: https://t.me/joinchat/YRQ-DUruREBmMjli
 
 
-
-
+## Контакты
 :world_map: <a target="_blank" href="https://www.linkedin.com/in/edubrovin/">linkedin</a><br/>
 :airplane: Telegram - @dubrowin
 
