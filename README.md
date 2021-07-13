@@ -29,7 +29,7 @@
 ### С какими параметрами можно запустить тесты:
 
 * browser (default chrome)
-* browserVersion (default 89.0)
+* browserVersion (default 90.0)
 * browserSize (default 1920x1080)
 * browserMobileView (mobile device name, for example iPhone X)
 * remoteDriverUrl (url address from selenoid or grid)
